@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Meeting minutes for CSE110 team" />
+  <link rel="icon" href="favicon.ico" />
+  <title>Pomodoro Timer First Brainstorm</title>
+</head>
+<body>
+
+  <header>
+    <h1>Pomodoro Timer First Brainstorm</h1>
+    <h2>Topic: Brainstorming</h2>
+    <h3>Date: April 3, 2025</h3>
+    <nav>
+      <a href="#agenda">Agenda</a> |
+      <a href="#media">Media</a> |
+      <a href="#form">Feedback</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section>
+      <h2>Attendance</h2>
+      <ul>
+        <li>Danny Nguyen</li>
+        <li>Team Member 1</li>
+        <li>Team Member 2</li>
+      </ul>
+    </section>
+
+    <section id="agenda">
+      <h2>Agenda</h2>
+      <ol>
+        <li>Check-ins</li>
+        <li>Timer setup UI brainstorming</li>
+        <li>New business: Task tracking ideas</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Unfinished Business</h2>
+      <p>Finalize the UI wireframe for the timer page.</p>
+    </section>
+
+    <section>
+      <h2>New Business</h2>
+      <p>Introduce new way to display breaks in the app.</p>
+    </section>
+
+    <section>
+      <h2>Comments & Questions</h2>
+      <p><strong>Q:</strong> Should the timer have sound effects?<br>
+      <em>A:</em> Possibly — further discussion needed.</p>
+    </section>
+
+    <section id="media">
+      <h2>Whiteboard Diagram</h2>
+      <img src="diagram.jpg" alt="Whiteboard diagram of app layout" width="300" />
+
+      <h2>Meeting Audio</h2>
+      <audio controls>
+        <source src="meeting-audio.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <h2>Meeting Video</h2>
+      <video controls width="320">
+        <source src="meeting-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section>
+      <h2>Details Summary</h2>
+      <details>
+        <summary>Click to see what was discussed about breaks</summary>
+        <p>We debated between 5- and 10-minute break options.</p>
+      </details>
+    </section>
+
+    <section id="form">
+      <h2>Feedback Form</h2>
+      <form>
+        <fieldset>
+          <legend>Meeting Feedback</legend>
+
+          <label>Name: <input type="text" name="name" /></label><br><br>
+
+          <label>Meeting Date: <input type="date" name="date" /></label><br><br>
+
+          <label>Rating:</label>
+          <input type="radio" name="rating" value="good" /> Good
+          <input type="radio" name="rating" value="bad" /> Bad<br><br>
+
+          <label>Topics Discussed:</label>
+          <input type="checkbox" name="topics" value="UI" /> UI
+          <input type="checkbox" name="topics" value="Timer" /> Timer<br><br>
+
+          <label>Additional Comments:<br>
+            <textarea name="comments" rows="4" cols="40"></textarea>
+          </label><br><br>
+
+          <label>Favorite Feature:</label>
+          <select name="feature">
+            <option value="pomodoro">Pomodoro Mode</option>
+            <option value="focus">Focus Mode</option>
+          </select><br><br>
+
+          <label for="feature-choice">Choose a requested feature:</label>
+          <input list="features" id="feature-choice" name="feature-choice" />
+          <datalist id="features">
+            <option value="Sound Alerts">
+            <option value="Dark Mode">
+            <option value="Daily Report">
+          </datalist><br><br>
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <div>
+      <span>End of meeting minutes.</span>
+    </div>
+  </main>
+
+  <footer>
+    <hr>
+    <p>Created by Danny Nguyen &copy; 2025 | <a href="#top">Back to Top</a></p>
+  </footer>
+
+</body>
+</html>
