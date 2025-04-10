@@ -1,0 +1,68 @@
+/* === General Styles === */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+  
+  /* === Header === */
+  header {
+    background-color: #e6f2ff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  /* === Navigation === */
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #003366;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* === Section Headings === */
+  section h2 {
+    margin-top: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* === Flexbox Layout Section === */
+  .flex-container {
+    display: flex;
+    justify-content: space-around; /* Flex property 1 */
+    align-items: center;           /* Flex property 2 */
+    flex-wrap: wrap;               /* Flex property 3 */
+    margin: 20px;
+    padding: 15px;
+    border: 2px dashed #888;
+    background-color: #f0f8ff;
+  }
+  
+  .box {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* === Footer === */
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 40px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
