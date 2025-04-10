@@ -151,3 +151,81 @@ nav a:hover {
 .box:nth-child(2) {
   background-color: color-mix(in srgb, blue 40%, pink);
 }
+
+/* === CSS Selectors Section === */
+
+/* ID Selector */
+#form {
+  border: 2px solid teal;
+  padding: 10px;
+}
+
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+  border: 2px solid #007acc;
+  padding: 5px;
+}
+
+/* Pseudo-class selectors */
+button:hover {
+  background-color: #333;
+  color: white;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Selector list */
+h1, h2 {
+  font-weight: bold;
+}
+
+/* Descendant Combinator */
+section p {
+  line-height: 1.5;
+}
+
+/* Child Combinator */
+ul > li {
+  list-style-type: square;
+}
+
+/* General sibling combinator */
+h2 ~ p {
+  color: #777;
+}
+
+/* Adjacent sibling combinator */
+h2 + p {
+  font-style: italic;
+}
+
+/* Combined Selector */
+button.primary {
+  background-color: darkorange;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+/* :has() Selector — Experimental! */
+section:has(img) {
+  border: 2px dashed #009688;
+  padding: 10px;
+}
+
+/* Nested Selectors (via nesting spec or Sass-like) — fallback style here */
+details summary {
+  cursor: pointer;
+}
+
+details summary:hover {
+  color: red;
+}
